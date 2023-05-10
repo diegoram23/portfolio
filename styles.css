@@ -28,9 +28,10 @@ nav {
 li {
     list-style: none;
     display: flex;
+    cursor: pointer;
 }
 
-header {
+section {
     text-align: center;
     padding: 0 1em;
 }
@@ -50,4 +51,16 @@ header {
 .view-work:hover {
     cursor: pointer;
     top: 5px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+img {
+    padding-bottom: 5px;
+    border:1px solid;
+    border-image: linear-gradient(to right, #fbae3c 0%, #fff 100%) 0% 0% 100% 0%;
 }
