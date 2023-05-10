@@ -17,6 +17,8 @@ nav {
     background-color: #fbae3c;
     padding: 1.5em 1em;
     gap: 1em;
+    font-weight: 500;
+    font-size: 1.2rem;
 }
 
 .page-title {
@@ -31,4 +33,21 @@ li {
 header {
     text-align: center;
     padding: 0 1em;
+}
+
+.view-work {
+    border: 1px solid #fbae3c;
+    color: #fbae3c;
+    background-color: transparent;
+    padding:0.6em 1em;
+    font-size: 1.05rem;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    letter-spacing: 0.03em;
+}
+
+.view-work:hover {
+    cursor: pointer;
+    top: 5px;
 }
