@@ -14,11 +14,13 @@ body {
 nav {
     display: flex;
     align-items: center;
+    justify-content: right;
     background-color: #fbae3c;
-    padding: 1.5em 1em;
-    gap: 1em;
-    font-weight: 500;
-    font-size: 1.2rem;
+    padding: 1em;
+    gap: 0.5em;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-shadow: 0px 0px 4px #001220;
 }
 
 .page-title {
@@ -31,6 +33,16 @@ li {
     cursor: pointer;
 }
 
+h2 {
+    margin: 3em 0;
+}
+
+h3 {
+    text-align: center;
+    width: fit-content;
+    margin: 3em auto;
+    border-bottom: 3px solid #fbae3c;
+}
 section {
     text-align: center;
     padding: 0 1em;
@@ -56,6 +68,7 @@ section {
 .img-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
@@ -63,4 +76,36 @@ img {
     padding-bottom: 5px;
     border:1px solid;
     border-image: linear-gradient(to right, #fbae3c 0%, #fff 100%) 0% 0% 100% 0%;
+}
+
+.projects-container {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.project-img img {
+    height: 14rem;
+    width: 12rem;
+    background: #203f57;
+    padding: 1.5em 1.5em 1.5em 0.8em;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-info a {
+    border-bottom: 3px solid #fbae3c;
+    margin-bottom: 0.5em;
+    text-shadow: 0px 0px 4px #001220;
+
+}
+
+.project-text {
+    font-size: 0.85rem;
+    border-bottom:1px solid transparent;
+    padding-left: 0.3em;
+    margin: 0;
+    text-shadow: 0px 0px 4px #001220;
 }
