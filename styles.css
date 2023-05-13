@@ -74,18 +74,16 @@ section {
 
 img {
     padding-bottom: 5px;
-    border:1px solid;
-    border-image: linear-gradient(to right, #fbae3c 0%, #fff 100%) 0% 0% 100% 0%;
 }
 
 .projects-container {
     display: flex;
+    flex-direction: column;
     margin-bottom: 1em;
 }
 
 .project-img img {
-    height: 14rem;
-    width: 12rem;
+    width: 45%;
     background: #203f57;
     padding: 1.5em 1.5em 1.5em 0.8em;
 }
