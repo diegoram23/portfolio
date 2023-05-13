@@ -49,7 +49,7 @@ h2 {
 .second-title {
     text-align: center;
     width: fit-content;
-    margin: 3em auto;
+    margin: 2.5em auto;
     border-bottom: 3px solid #fbae3c;
 }
 
@@ -150,7 +150,7 @@ footer {
     background-color: #2d2d2d;
     color: #fff;
     padding: 0.5em 1.5em 1em 1.5em;
-
+    margin: 0;
 }
 
 .footer-container {
@@ -178,6 +178,11 @@ footer h3 {
     width: fit-content;
     border-bottom: 3px solid #fbae3c;
     font-size: 1rem;
+}
+
+.footer-imgs {
+    width: 20%;
+    margin-top: 1em;
 }
 
 footer p {
