@@ -11,7 +11,7 @@ body {
     font-size: 1.1rem;
 }
 
-h4{
+h4 {
     margin-bottom: 0.5em;
 }
 
@@ -43,17 +43,17 @@ li:hover {
 }
 
 h2 {
-    margin: 5em 0 1em 0 ;
+    margin: 5em 0 1em 0;
 }
 
-h3 {
+.second-title {
     text-align: center;
     width: fit-content;
     margin: 3em auto;
     border-bottom: 3px solid #fbae3c;
 }
 
-.scroll-text{
+.scroll-text {
     margin-bottom: 2em;
 }
 
@@ -144,4 +144,57 @@ img {
     padding-left: 0.3em;
     margin: 0 0 1em 0;
     font-weight: 500;
+}
+
+footer {
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 0.5em 1.5em 1em 1.5em;
+
+}
+
+.footer-container {
+    display: flex;
+    gap: 80px;
+    margin: 0;
+}
+
+footer li {
+    margin: 0;
+    display: list-item;
+    font-weight: 400;
+    font-size: 0.8rem;
+    list-style-type: disc;
+}
+
+footer li:hover {
+    border-bottom: 3px solid #fbae3c;
+    cursor: pointer;
+}
+
+
+footer h3 {
+    margin: 0;
+    width: fit-content;
+    border-bottom: 3px solid #fbae3c;
+    font-size: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer span {
+    color: #f7b149;
+}
+
+.copyright {
+    margin: 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+ul {
+    padding-left: 1em;
+    margin: 0.5em 0;
 }
