@@ -1,8 +1,8 @@
-body {
+html, body {
     margin: 0 auto;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background-image: url('lightgreybackground.svg');
+    background-image: url('./images/lightgreybackground.svg');
     background-size: cover;
     background-repeat: no-repeat;
     color: #2d2d2d;
