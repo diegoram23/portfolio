@@ -7,7 +7,7 @@ html, body {
     background-repeat: no-repeat;
     color: #2d2d2d;
     min-height: 100vh;
-    max-width: 400px;
+    width: 100vw;
     font-size: 1.1rem;
 }
 
@@ -27,9 +27,6 @@ nav {
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
 }
 
-.page-title {
-    margin-right: auto;
-}
 
 li {
     list-style: none;
@@ -150,7 +147,6 @@ footer {
     background-color: #2d2d2d;
     color: #fff;
     padding: 0.5em 1.5em 1em 1.5em;
-    margin: 0;
 }
 
 .footer-container {
@@ -163,7 +159,7 @@ footer li {
     margin: 0;
     display: list-item;
     font-weight: 400;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     list-style-type: disc;
 }
 
@@ -177,7 +173,7 @@ footer h3 {
     margin: 0;
     width: fit-content;
     border-bottom: 3px solid #fbae3c;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .footer-imgs {
@@ -202,4 +198,55 @@ footer span {
 ul {
     padding-left: 1em;
     margin: 0.5em 0;
+}
+
+/*--------------- Form Syles ----------------------*/
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5em;
+    border: 1px solid #fbae3c;
+}
+
+form span {
+    display: flex;
+    margin:  0;
+}
+
+label{
+    display: block;
+    margin: 0;
+}
+
+form button {
+    margin: 2em;
+}
+
+textarea {
+    resize: none;
+    height: 75px;
+    width: 220px;
+}
+
+form input{
+    width: 220px;
+    height: 20px;
+}
+
+button {
+    background-color: #fbae3c;
+    color: #2d2d2d;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #2d2d2d;
+    color: #fbae3c;
 }

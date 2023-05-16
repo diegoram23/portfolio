@@ -18,73 +18,100 @@
     <nav>
         <li>Home</li>
         <li>About Me</li>
-        <li><a href="contactform.html">Contact</a></li>
+        <li>Contact</li>
     </nav>
+    <main>
+        <section>
+            <h2>Hi, I'm Diego. A web developer.</h2>
+            <p class="scroll-text">Scroll down and find out more about me!</p>
+            <button class="view-work">View my work</button>
+        </section>
 
-    <section>
-        <h2>Hi, I'm Diego. A web developer.</h2>
-        <p class="scroll-text">Scroll down and find out more about me!</p>
-        <button class="view-work">View my work</button>
-    </section>
+        <section>
+            <h3 class="second-title">My languages</h3>
+            <div class="img-container">
+                <img src="./images/html-logo.svg">
+                <img src="./images/css-logo.svg">
+                <img src="./images/javascript-logo.svg">
+                <img src="./images/react-logo.svg">
+                <img src="./images/firebase-logo.svg">
+            </div>
+        </section>
 
-    <section>
-        <h3 class="second-title">My languages</h3>
-        <div class="img-container">
-            <img src="./images/html-logo.svg">
-            <img src="./images/css-logo.svg">
-            <img src="./images/javascript-logo.svg">
-            <img src="./images/react-logo.svg">
-            <img src="./images/firebase-logo.svg">
-        </div>
-    </section>
+        <h3 class="second-title">Projects</h3>
 
-    <h3 class="second-title">Projects</h3>
+        <section class="projects-container">
 
-    <section class="projects-container">
+            <div class="project-img">
+                <h4>Rehab Docs</h4>
+                <a href="https://diegoram23.github.io/rehab-docs/"><img src="./images/large1.png"
+                        alt="homepage of rehab-docs website"></a>
+            </div>
+            <div class="project-info">
+                <p class="project-text">A mock documentation service for physical therapy treatments. Inspired by my own
+                    work experience. Built with a React frontend and Firebase backend.</p>
+                <span><a href="https://diegoram23.github.io/rehab-docs/">LIVE APP</a></span>
+                <span><a href="https://github.com/diegoram23/rehab-docs">SOURCE CODE</a></span>
+            </div>
 
-        <div class="project-img">
-            <h4>Rehab Docs</h4>
-            <a href="https://diegoram23.github.io/rehab-docs/"><img src="./images/large1.png"
-                    alt="homepage of rehab-docs website"></a>
-        </div>
-        <div class="project-info">
-            <p class="project-text">A mock documentation service for physical therapy treatments. Inspired by my own
-                work experience. Built with a React frontend and Firebase backend.</p>
-            <span><a href="https://diegoram23.github.io/rehab-docs/">LIVE APP</a></span>
-            <span><a href="https://github.com/diegoram23/rehab-docs">SOURCE CODE</a></span>
-        </div>
+            <div class="project-img">
+                <h4>Market Scoop</h4>
+                <a href="https://diegoram23.github.io/stock-market-watchlist/"><img src="./images/medium.png"
+                        alt="homepage of market scoop website"></a>
+            </div>
+            <div class="project-info">
+                <p class="project-text">Get the latest news on the stock market, find out more about an individual
+                    ticker,
+                    and create a watchlist. Built with React and a local storage database.</p>
+                <span><a href="https://diegoram23.github.io/stock-market-watchlist/">LIVE APP</a></span>
+                <span><a href="https://github.com/diegoram23/stock-market-watchlist">SOURCE CODE</a></span>
+            </div>
 
-        <div class="project-img">
-            <h4>Market Scoop</h4>
-            <a href="https://diegoram23.github.io/stock-market-watchlist/"><img src="./images/medium.png"
-                    alt="homepage of market scoop website"></a>
-        </div>
-        <div class="project-info">
-            <p class="project-text">Get the latest news on the stock market, find out more about an individual ticker,
-                and create a watchlist. Built with React and a local storage database.</p>
-            <span><a href="https://diegoram23.github.io/stock-market-watchlist/">LIVE APP</a></span>
-            <span><a href="https://github.com/diegoram23/stock-market-watchlist">SOURCE CODE</a></span>
-        </div>
+            <div class="project-img">
+                <h4>CPR-Quiz</h4>
+                <a href="https://diegoram23.github.io/cpr-quiz/"><img src="./images/smallcpr.png"
+                        alt="homepage of cpr-quiz website"></a>
+            </div>
+            <div class="project-info">
+                <p class="project-text">Test out your CPR knowledge with this interactive quiz app built with html and
+                    vanilla Javascript.</p>
+                <span><a href="https://diegoram23.github.io/cpr-quiz/">LIVE APP</a></span>
+                <span><a href="https://github.com/diegoram23/cpr-quiz">SOURCE CODE</a></span>
+            </div>
 
-        <div class="project-img">
-            <h4>CPR-Quiz</h4>
-            <a href="https://diegoram23.github.io/cpr-quiz/"><img src="./images/smallcpr.png"
-                    alt="homepage of cpr-quiz website"></a>
-        </div>
-        <div class="project-info">
-            <p class="project-text">Test out your CPR knowledge with this interactive quiz app built with html and vanilla Javascript.</p>
-            <span><a href="https://diegoram23.github.io/cpr-quiz/">LIVE APP</a></span>
-            <span><a href="https://github.com/diegoram23/cpr-quiz">SOURCE CODE</a></span>
-        </div>
+        </section>
 
-    </section>
+    </main>
+
+    <form>
+        <h3>Send me a message!</h3>
+
+        <label>
+            <span>Name:</span>
+            <input required type="text" />
+        </label>
+
+        <label>
+            <span>Email:</span>
+            <input required type="email" />
+        </label>
+
+        <label>
+            <span>Message:</span>
+            <textarea></textarea>
+        </label>
+        <button>Send Message</button>
+    </form>
+
 
     <footer>
         <div class="footer-container">
             <div class="contact-info">
                 <p>Diego<span>Develops</span></p>
-                <a href="https://github.com/diegoram23"><img class='footer-imgs'src="./images/github-mark-white.svg"></a>
-                <a href="https://www.linkedin.com/in/diego-ramirez-422938167/"><img class='footer-imgs'src="./images/linkedin.svg"></a>
+                <a href="https://github.com/diegoram23"><img class='footer-imgs'
+                        src="./images/github-mark-white.svg"></a>
+                <a href="https://www.linkedin.com/in/diego-ramirez-422938167/"><img class='footer-imgs'
+                        src="./images/linkedin.svg"></a>
             </div>
             <div class="links">
                 <h3>Quick Links</h3>
