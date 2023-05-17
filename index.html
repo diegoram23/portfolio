@@ -17,18 +17,19 @@
 
     <nav>
         <li>Home</li>
-        <li>About Me</li>
-        <li>Contact</li>
+        <li><a href="#my-languages">About Me</a></li>
+        <li><a href="#form">Contact</a></li>
     </nav>
     <main>
         <section>
-            <h2>Hi, I'm Diego. A web developer.</h2>
-            <p class="scroll-text">Scroll down and find out more about me!</p>
-            <button class="view-work">View my work</button>
+            <h2>Hi, I'm Diego. <span class="normal-size">A physical therapist assistant turned</span>
+                <span class="bold-yellow"> web developer.</span></h2>
+            <!-- <p class="scroll-text">Scroll down and find out more about me!</p> -->
+            <button class="view-work"><a href="#projects">View my work</a></button>
         </section>
 
         <section>
-            <h3 class="second-title">My languages</h3>
+            <h3 class="second-title" id="my-languages">My languages</h3>
             <div class="img-container">
                 <img src="./images/html-logo.svg">
                 <img src="./images/css-logo.svg">
@@ -38,7 +39,7 @@
             </div>
         </section>
 
-        <h3 class="second-title">Projects</h3>
+        <h3 class="second-title" id="projects">Projects</h3>
 
         <section class="projects-container">
 
@@ -83,8 +84,8 @@
 
     </main>
 
-    <form>
-        <h3>Send me a message!</h3>
+    <form id="form">
+        <h4>Send me a message!</h4>
 
         <label>
             <span>Name:</span>

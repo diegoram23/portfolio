@@ -9,6 +9,7 @@ html, body {
     min-height: 100vh;
     width: 100vw;
     font-size: 1.1rem;
+    scroll-behavior: smooth;
 }
 
 h4 {
@@ -40,7 +41,7 @@ li:hover {
 }
 
 h2 {
-    margin: 5em 0 1em 0;
+    margin: 5em 0 1.5em 0;
 }
 
 .second-title {
@@ -64,6 +65,15 @@ a {
     transition: top ease 0.2s;
     text-decoration: none;
     color: #2d2d2d;
+}
+
+.normal-size {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.bold-yellow {
+    color: #fbae3c;
 }
 
 a:hover {
@@ -206,7 +216,7 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0.5em;
+    margin: 1em 1em 3em;
     border: 1px solid #fbae3c;
 }
 
@@ -226,7 +236,7 @@ form button {
 
 textarea {
     resize: none;
-    height: 75px;
+    height: 100px;
     width: 220px;
 }
 
@@ -235,7 +245,7 @@ form input{
     height: 20px;
 }
 
-button {
+form button {
     background-color: #fbae3c;
     color: #2d2d2d;
     font-weight: 600;
@@ -245,7 +255,7 @@ button {
     border-radius: 8px;
 }
 
-button:hover {
+form button:hover {
     cursor: pointer;
     background-color: #2d2d2d;
     color: #fbae3c;
