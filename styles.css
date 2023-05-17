@@ -12,9 +12,39 @@ html, body {
     scroll-behavior: smooth;
 }
 
+/*---------------  Typography ----------------------*/
+
+
 h4 {
     margin-bottom: 0.5em;
 }
+
+h2 {
+    margin: 5em 0 1.5em 0;
+}
+
+.second-title {
+    text-align: center;
+    width: fit-content;
+    margin: 2.5em auto;
+    border-bottom: 3px solid #fbae3c;
+}
+
+span {
+    margin-bottom: 0.5em;
+}
+
+.normal-size {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.bold-yellow {
+    color: #fbae3c;
+}
+
+/*--------------- Nav bar ----------------------*/
+
 
 nav {
     display: flex;
@@ -40,25 +70,6 @@ li:hover {
     cursor: pointer;
 }
 
-h2 {
-    margin: 5em 0 1.5em 0;
-}
-
-.second-title {
-    text-align: center;
-    width: fit-content;
-    margin: 2.5em auto;
-    border-bottom: 3px solid #fbae3c;
-}
-
-.scroll-text {
-    margin-bottom: 2em;
-}
-
-span {
-    margin-bottom: 0.5em;
-}
-
 a {
     position: relative;
     top: 0;
@@ -67,21 +78,15 @@ a {
     color: #2d2d2d;
 }
 
-.normal-size {
-    font-size: 1rem;
-    font-weight: 400;
-}
-
-.bold-yellow {
-    color: #fbae3c;
-}
-
 a:hover {
     cursor: pointer;
     top: 3px;
 }
 
-section {
+/*--------------- Header Styles ----------------------*/
+
+
+section, header {
     text-align: center;
     padding: 0 1em;
 }
@@ -102,8 +107,12 @@ section {
     cursor: pointer;
     top: 5px;
 }
+/*--------------- Languages section ----------------------*/
 
-.img-container {
+
+
+
+.languages-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,6 +122,7 @@ section {
 img {
     padding-bottom: 5px;
 }
+/*--------------- Project Styles ----------------------*/
 
 .projects-container {
     display: flex;
@@ -152,6 +162,9 @@ img {
     margin: 0 0 1em 0;
     font-weight: 500;
 }
+
+/*--------------- Footer Styles ----------------------*/
+
 
 footer {
     background-color: #2d2d2d;
