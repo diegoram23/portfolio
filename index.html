@@ -5,15 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--------------------------------------- Google Fonts ------------------------------------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&display=swap"
         rel="stylesheet">
+    <!--------------------------------------- Email JS Script ------------------------------------------------->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("s1Ypel2sevCt6Z-yW");
+        })();
+    </script>
     <link rel="stylesheet" href="styles.css">
     <title>Portfolio</title>
 </head>
 
 <body>
+
+    <!--------------------------------------- Navbar ------------------------------------------------->
 
     <nav>
         <li>Home</li>
@@ -21,13 +32,18 @@
         <li><a href="#form">Contact</a></li>
     </nav>
 
+    <!--------------------------------------- Header ------------------------------------------------->
+
     <main>
 
         <header>
             <h2>Hi, I'm Diego. <span class="normal-size">A physical therapist assistant turned</span>
-                <span class="bold-yellow"> web developer.</span></h2>
+                <span class="bold-yellow"> web developer.</span>
+            </h2>
             <button class="view-work"><a href="#projects">View my work</a></button>
         </header>
+
+        <!--------------------------------------- Languages Section ------------------------------------------------->
 
         <section>
             <h3 class="second-title" id="my-languages">My languages</h3>
@@ -41,6 +57,8 @@
         </section>
 
         <h3 class="second-title" id="projects">Projects</h3>
+
+        <!--------------------------------------- Projects Section  ------------------------------------------------->
 
         <section class="projects-container">
 
@@ -85,26 +103,29 @@
 
     </main>
 
+    <!--------------------------------------- Form ------------------------------------------------->
+
     <form id="form">
         <h4>Send me a message!</h4>
 
-        <label>
+        <label for="name">
             <span>Name:</span>
-            <input required type="text" />
+            <input required type="text" name="name" id="name" />
         </label>
 
-        <label>
+        <label for="email">
             <span>Email:</span>
-            <input required type="email" />
+            <input required type="email" name="email" id="email" />
         </label>
 
-        <label>
+        <label for="message">
             <span>Message:</span>
-            <textarea></textarea>
+            <textarea required type="text" name="message" id="message"></textarea>
         </label>
-        <button>Send Message</button>
+        <button id="form-btn">Send Message</button>
     </form>
 
+    <!--------------------------------------- Footer ------------------------------------------------->
 
     <footer>
         <div class="footer-container">
