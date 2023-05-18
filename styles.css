@@ -40,8 +40,12 @@ span {
     font-weight: 400;
 }
 
-.bold-yellow {
+.orange {
     color: #fbae3c;
+}
+
+.blue {
+    color: #61dbfb;
 }
 
 /*--------------- Nav bar ----------------------*/
@@ -135,10 +139,11 @@ img {
     display: flex;
     flex-direction: column;
     margin-bottom: 1em;
+    align-items: center;
 }
 
 .project-img img {
-    width: 50%;
+    max-width: 50%;
     background: #f7f7f7;
     border: 1px solid #e6e6e6;
     border-radius: 10px;
@@ -321,4 +326,102 @@ form button:hover {
     cursor: pointer;
     background-color: #2d2d2d;
     color: #fbae3c;
+}
+
+/*--------------- Min 480px media queries ----------------------*/
+
+@media (min-width: 480px) {
+    .project-img img {
+        width: 170px;
+    }
+
+    .project-text {
+        border: 1px solid red;
+        margin: 0 auto;
+        max-width: 400px;
+        margin-bottom: 2em;
+    }
+
+
+    form {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    form input {
+        width: 250px;
+        height: 20px;
+    }
+
+    textarea {
+        resize: none;
+        height: 120px;
+        width: 250px;
+    }
+    .footer-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    footer li {
+        font-size: 0.8rem;
+    }
+
+    body {
+        font-size: 1.19rem;
+    }
+}
+
+/*--------------- Min 750px media queries ----------------------*/
+
+
+@media (min-width: 750px) {
+    .project-img img {
+        width: 285px;
+    }
+
+    .project-text {
+        border: 1px solid green;
+        margin: 0 auto;
+        width: 550px;
+        margin-bottom: 2em;
+        font-size: 0.95rem;
+    }
+
+    nav {
+
+        font-weight: 400;
+        padding: 1.3em;
+        gap: 1em;
+        font-size: 1.2rem;
+    }
+
+    form {
+        margin: 0 auto;
+        max-width: 550px;
+    }
+
+    form input {
+        width: 280px;
+        height: 20px;
+    }
+
+    textarea {
+        resize: none;
+        height: 120px;
+        width: 280px;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    footer li {
+        font-size: 0.9rem;
+    }
+
+    body {
+        font-size: 1.35rem;
+    }
 }
