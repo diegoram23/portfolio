@@ -240,6 +240,10 @@ footer li {
     list-style-type: disc;
 }
 
+footer a {
+    color: #fff;
+}
+
 footer li:hover {
     border-bottom: 3px solid #fbae3c;
     cursor: pointer;
