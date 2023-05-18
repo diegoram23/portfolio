@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0 auto;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -86,14 +87,18 @@ a:hover {
 /*--------------- Header Styles ----------------------*/
 
 
-section, header {
+section,
+header {
     text-align: center;
     padding: 0 1em;
 }
 
+.view-work a {
+    color: #fbae3c;
+}
+
 .view-work {
     border: 1px solid #fbae3c;
-    color: #fbae3c;
     background-color: transparent;
     padding: 0.6em 1em;
     font-size: 1.05rem;
@@ -107,6 +112,7 @@ section, header {
     cursor: pointer;
     top: 5px;
 }
+
 /*--------------- Languages section ----------------------*/
 
 
@@ -122,6 +128,7 @@ section, header {
 img {
     padding-bottom: 5px;
 }
+
 /*--------------- Project Styles ----------------------*/
 
 .projects-container {
@@ -161,6 +168,48 @@ img {
     padding-left: 0.3em;
     margin: 0 0 1em 0;
     font-weight: 500;
+}
+
+/*---------------- Modal Styles -----------------------------*/
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 230px;
+    width: 320px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px 2px #cacaca;
+    background-color: #fff;
+    color: #2d2d2d;
+}
+
+.modal header {
+    background-color: #fff;
+    padding: 1em 0.5em 0 0.5em;
+    font-size: 1.5rem;
+}
+
+.modal p {
+    padding: 1em;
+    margin: 0;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.modal-btn {
+    background-color: #fbae3c;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
 }
 
 /*--------------- Footer Styles ----------------------*/
@@ -225,7 +274,7 @@ ul {
 
 /*--------------- Form Syles ----------------------*/
 
-form{
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -235,10 +284,10 @@ form{
 
 form span {
     display: flex;
-    margin:  0;
+    margin: 0;
 }
 
-label{
+label {
     display: block;
     margin: 0;
 }
@@ -253,7 +302,7 @@ textarea {
     width: 220px;
 }
 
-form input{
+form input {
     width: 220px;
     height: 20px;
 }
