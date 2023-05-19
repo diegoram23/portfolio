@@ -15,11 +15,6 @@ body {
 
 /*---------------  Typography ----------------------*/
 
-
-h4 {
-    margin-bottom: 0.5em;
-}
-
 h1 {
     margin: 3em 0 1.5em 0;
     font-size: 2.5rem;
@@ -263,7 +258,7 @@ footer li:hover {
 }
 
 
-footer h3 {
+.quick-links {
     margin: 0;
     width: fit-content;
     border-bottom: 3px solid #fbae3c;
@@ -289,7 +284,7 @@ footer span {
     font-size: 0.9rem;
 }
 
-ul {
+ol {
     padding-left: 1em;
     margin: 0.5em 0;
 }
