@@ -20,8 +20,9 @@ h4 {
     margin-bottom: 0.5em;
 }
 
-h2 {
-    margin: 3.7em 0 1.5em 0;
+h1 {
+    margin: 3em 0 1.5em 0;
+    font-size: 2.5rem;
 }
 
 .second-title {
@@ -103,14 +104,14 @@ header {
     padding: 0 1em;
 }
 
-.view-work a {
+a .view-work {
     color: #fbae3c;
 }
 
 .view-work {
-    border: 1px solid #fbae3c;
+    border: 2px solid #fbae3c;
     background-color: transparent;
-    padding: 0.6em 1em;
+    padding: 0.75em 1em;
     font-size: 1.05rem;
     position: relative;
     top: 0;
