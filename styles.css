@@ -21,7 +21,7 @@ h4 {
 }
 
 h2 {
-    margin: 5em 0 1.5em 0;
+    margin: 3.7em 0 1.5em 0;
 }
 
 .second-title {
@@ -116,6 +116,7 @@ header {
     top: 0;
     transition: top ease 0.5s;
     letter-spacing: 0.03em;
+    font-weight: 600;
 }
 
 .view-work:hover {
@@ -130,7 +131,7 @@ header {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 85%;
 }
 
 .languages-container p {
@@ -390,6 +391,20 @@ form button:hover {
 
 
 @media (min-width: 750px) {
+  
+
+    .box p {
+        font-size: 0.8rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .projects-container {
+        display: flex;
+    }
+
     .project-img img {
         width: 285px;
     }
@@ -404,8 +419,12 @@ form button:hover {
     nav {
 
         font-weight: 400;
-        padding: 1.3em;
+        padding: 1.3em 3.5em;
         gap: 1em;
+        font-size: 1.2rem;
+    }
+
+    .view-work {
         font-size: 1.2rem;
     }
 
