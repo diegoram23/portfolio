@@ -172,7 +172,7 @@ a .view-work {
     display: flex;
     flex-direction: column;
     margin-bottom: 1em;
-    
+
 }
 
 .project-info a {
@@ -186,7 +186,7 @@ a .view-work {
     padding-left: 0.3em;
     margin: 0 0 1em 0;
     font-weight: 500;
-    
+
 }
 
 /*---------------- Modal Styles -----------------------------*/
@@ -375,6 +375,7 @@ form button:hover {
         height: 120px;
         width: 250px;
     }
+
     .footer-container {
         display: flex;
         justify-content: space-evenly;
@@ -392,8 +393,12 @@ form button:hover {
 /*--------------- Min 750px media queries ----------------------*/
 
 
-@media (min-width: 750px) {
-  
+@media (min-width: 850px) {
+
+    body {
+        max-width: 1300px;
+        font-size: 1.5rem;
+    }
 
     .box p {
         font-size: 0.8rem;
@@ -404,18 +409,35 @@ form button:hover {
     }
 
     .projects-container {
-        display: flex;
+        margin: 0 auto;
+        max-width: 850px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(4, auto);
+        grid-auto-flow: column;
+        grid-gap: 10px;
     }
 
     .project-img img {
-        width: 285px;
+        width: 150px;
+        height: 180px;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
     }
 
     .project-text {
         margin: 0 auto;
         width: 550px;
-        margin-bottom: 2em;
+        margin-bottom: 0em;
         font-size: 0.95rem;
+    }
+
+    span a {
+        margin: 0;
+        font-size: 1rem;
     }
 
     nav {
@@ -455,8 +477,10 @@ form button:hover {
         font-size: 0.9rem;
     }
 
-    body {
-        font-size: 1.5rem;
+    .contact-info {
+        margin-right: auto;
     }
+
+
 
 }
