@@ -101,7 +101,7 @@ header {
 }
 
 header {
-    animation-duration: 2.3s;
+    animation-duration: 2.75s;
     animation-name: hide;
     animation-iteration-count: 1;
     animation-direction: normal;
@@ -134,7 +134,7 @@ a .view-work {
 
 .view-work:hover {
     cursor: pointer;
-    animation-duration: 0.7s;
+    animation-duration: 0.85s;
     animation-name: change-size;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -143,9 +143,12 @@ a .view-work {
 @keyframes change-size {
     from {
         border-radius: 0;
+        border: 2px solid #fbae3c;
     }
     to {
         border-radius: 50%;
+        border: 2px solid #747373;
+
     }
 }
 
@@ -175,13 +178,12 @@ a .view-work {
 }
 
 .project-img img {
-    max-width: 50%;
+    max-width: 35%;
     background: #f7f7f7;
     border: 1px solid #e6e6e6;
     border-radius: 10px;
     padding: 1em;
     margin-bottom: 1em;
-
 }
 
 .project-img img:hover {
@@ -421,7 +423,7 @@ form button:hover {
     }
 }
 
-/*--------------- Min 750px media queries ----------------------*/
+/*--------------- Min 850px media queries ----------------------*/
 
 
 @media (min-width: 850px) {
@@ -449,12 +451,12 @@ form button:hover {
         grid-template-columns: 50% 50%;
         grid-template-rows: repeat(4, auto);
         grid-auto-flow: column;
-        grid-gap: 10px;
+        grid-gap: 70px;
     }
 
     .project-img img {
-        width: 150px;
-        height: 180px;
+        width: 175px;
+        height: 200px;
     }
 
     p {
