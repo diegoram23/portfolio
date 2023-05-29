@@ -129,11 +129,11 @@ a .view-work {
 /*--------------- Languages section ----------------------*/
 
 .languages-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 350px;
     margin: 0 auto;
-    max-width: 85%;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-auto-flow: column;
 }
 
 .languages-container p {
@@ -349,6 +349,10 @@ form button:hover {
 /*--------------- Min 480px media queries ----------------------*/
 
 @media (min-width: 480px) {
+    .languages-container {
+        max-width: 400px;
+    }
+
     .project-img img {
         width: 170px;
     }
@@ -358,7 +362,6 @@ form button:hover {
         max-width: 400px;
         margin-bottom: 2em;
     }
-
 
     form {
         max-width: 350px;
@@ -394,6 +397,9 @@ form button:hover {
 
 
 @media (min-width: 850px) {
+    .languages-container {
+        max-width: 550px;
+    }
 
     body {
         max-width: 1300px;
