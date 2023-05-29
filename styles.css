@@ -101,7 +101,10 @@ section,
 header {
     text-align: center;
     padding: 0 1em;
-    animation-duration: 2s;
+}
+
+header {
+    animation-duration: 2.3s;
     animation-name: hide;
     animation-iteration-count: 1;
     animation-direction: normal;
@@ -127,17 +130,28 @@ a .view-work {
     background-color: transparent;
     padding: 0.75em 1em;
     font-size: 1.05rem;
-    position: relative;
-    top: 0;
-    transition: top ease 0.5s;
     letter-spacing: 0.03em;
     font-weight: 600;
 }
 
+
 .view-work:hover {
     cursor: pointer;
-    top: 5px;
+    animation-duration: 0.7s;
+    animation-name: change-size;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+
+@keyframes change-size {
+    from {
+        border-radius: 0;
+    }
+    to {
+        border-radius: 50%;
+    }
+}
+
 
 /*--------------- Languages section ----------------------*/
 
