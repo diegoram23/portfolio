@@ -101,6 +101,19 @@ section,
 header {
     text-align: center;
     padding: 0 1em;
+    animation-duration: 2s;
+    animation-name: hide;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes hide {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
 }
 
 a .view-work {
