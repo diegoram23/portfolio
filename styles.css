@@ -82,16 +82,13 @@ li:hover {
 }
 
 a {
-    position: relative;
-    top: 0;
-    transition: top ease 0.2s;
+
     text-decoration: none;
     color: #2d2d2d;
 }
 
 a:hover {
     cursor: pointer;
-    top: 3px;
 }
 
 /*--------------- Header Styles ----------------------*/
@@ -151,7 +148,6 @@ a .view-work {
         border-radius: 50%;
     }
 }
-
 
 /*--------------- Languages section ----------------------*/
 
@@ -225,7 +221,7 @@ a .view-work {
     left: 0;
     right: 0;
     margin: auto;
-    height: 230px;
+    height: 250px;
     width: 320px;
     border-radius: 5px;
     box-shadow: 5px 5px 6px 2px #cacaca;
@@ -233,10 +229,8 @@ a .view-work {
     color: #2d2d2d;
 }
 
-.modal header {
-    background-color: #fff;
-    padding: 1em 0.5em 0 0.5em;
-    font-size: 1.5rem;
+.modal h3 {
+    text-align: center;
 }
 
 .modal p {
@@ -256,6 +250,13 @@ a .view-work {
     border-radius: 8px;
     display: block;
     margin: 0 auto;
+}
+
+.modal-btn:hover{
+    background-color: #fff;
+    color: #fbae3c;
+    cursor: pointer;
+    border: 2px solid #fbae3c;
 }
 
 /*--------------- Footer Styles ----------------------*/
