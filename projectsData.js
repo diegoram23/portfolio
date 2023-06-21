@@ -12,13 +12,13 @@ export const data = [
 
 
     {
-        title: "CPR-Quiz",
-        coverPhoto: "./images/smallcpr.png",
-        projectText: `Test out your CPR knowledge with this interactive quiz app built with html and
-        vanilla <span class="orange">Javascript.</span></p>`,
-        liveLink: "https://diegoram23.github.io/cpr-quiz/",
-        codeLink: "https://github.com/diegoram23/cpr-quiz",
-        altTag: "homepage of cpr-quiz website",
+        title: "Blood Pressure Journal",
+        coverPhoto: "./images/bp-journal.png",
+        projectText: `Store your blood pressure data in this online journal. Sort by time of day and blood pressure levels. <span class="orange">Firebase.</span>
+        back-end and <span class='blue'>React<span> front-end.</p>`,
+        liveLink: "https://diegoram23.github.io/blood-pressure-journal/",
+        codeLink: "https://github.com/diegoram23/blood-pressure-journal",
+        altTag: "homepage of blood pressure journal website",
         id: 1
     },
 

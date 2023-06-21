@@ -37,13 +37,13 @@ span {
 }
 
 .orange {
-    color: #fbae3c;
+    color: #dd911f;
     filter: contrast(1.75);
     font-weight: 600;
 }
 
 .blue {
-    color: #61dbfb;
+    color: #09a4ca;
     filter: contrast(1.75);
     font-weight: 600;
 }
@@ -117,13 +117,13 @@ header {
 }
 
 a .view-work {
-    color: #fbae3c;
+    color: #dd911f;
     font-weight: 600;
     filter: contrast(1.75);
 }
 
 .view-work {
-    border: 2px solid #fbae3c;
+    border: 2px solid #dd911f;
     background-color: transparent;
     padding: 0.75em 1em;
     font-size: 1.05rem;
