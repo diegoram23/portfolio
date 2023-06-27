@@ -12,7 +12,7 @@ export const data = [
 
 
     {
-        title: "Blood Pressure Journal",
+        title: "Mobile BP Journal",
         coverPhoto: "./images/bp-journal.png",
         projectText: `Store your blood pressure data in this online journal. Sort by time of day and blood pressure levels. <span class="orange">Firebase.</span>
         back-end and <span class='blue'>React<span> front-end.</p>`,
