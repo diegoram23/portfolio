@@ -38,7 +38,7 @@ export const data = [
         coverPhoto: "./images/doc-extension.png",
         projectText: `Designed for physical therapists to speed up documentation time by generating custom statements based on session interventions.
         Built with html and <span class="orange">Javascript.</span></p>`,
-        liveLink: "https://diegoram23.github.io/documentation-extension/",
+        liveLink: "https://diegoram23.github.io/quick-rehab-notes/",
         codeLink: "https://github.com/diegoram23/documentation-extension",
         altTag: "homepage of Quick Rehab Notes website",
         id: 3
