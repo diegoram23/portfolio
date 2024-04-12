@@ -11,6 +11,7 @@ body {
     width: 100vw;
     font-size: 1.1rem;
     scroll-behavior: smooth;
+    pointer
 }
 
 /*---------------  Typography ----------------------*/
@@ -88,7 +89,7 @@ a {
 }
 
 a:hover {
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 /*--------------- Header Styles ----------------------*/
